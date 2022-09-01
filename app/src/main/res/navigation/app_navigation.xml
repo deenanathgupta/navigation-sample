@@ -9,17 +9,29 @@
         android:id="@+id/viewPagerFragment"
         android:name="com.android.navigation_sample.ViewPagerFragment"
         android:label="fragment_setting"
-        tools:layout="@layout/fragment_view_pager" />
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_fragmentOne"
+            app:destination="@id/fragmentOne" />
+    </fragment>
     <fragment
         android:id="@+id/fragmentOne"
         android:name="com.android.navigation_sample.FragmentOne"
         android:label="fragment_one"
-        tools:layout="@layout/fragment_one" />
+        tools:layout="@layout/fragment_one" >
+        <action
+            android:id="@+id/action_fragmentOne_to_fragmentTwo"
+            app:destination="@id/fragmentTwo" />
+    </fragment>
     <fragment
         android:id="@+id/fragmentTwo"
         android:name="com.android.navigation_sample.FragmentTwo"
         android:label="fragment_two"
-        tools:layout="@layout/fragment_two" />
+        tools:layout="@layout/fragment_two" >
+        <action
+            android:id="@+id/action_fragmentTwo_to_fragmentThree"
+            app:destination="@id/fragmentThree" />
+    </fragment>
     <fragment
         android:id="@+id/fragmentThree"
         android:name="com.android.navigation_sample.FragmentThree"

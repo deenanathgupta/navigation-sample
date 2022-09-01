@@ -8,4 +8,6 @@
     <string name="Screen3">Screen 3</string>
     <string name="screen2">Screen 2</string>
     <string name="screen1">Screen 1</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
 </resources>

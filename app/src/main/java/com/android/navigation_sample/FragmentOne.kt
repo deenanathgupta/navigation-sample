@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
+import androidx.navigation.fragment.findNavController
 import com.android.navigation_sample.databinding.FragmentOneBinding
 
 /**
@@ -28,7 +29,9 @@ class FragmentOne : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        binding.btnNext.setOnClickListener {
+            findNavController().navigate(R.id.fragmentTwo)
+        }
     }
 
     companion object {
