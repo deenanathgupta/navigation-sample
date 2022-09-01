@@ -9,7 +9,7 @@
         android:id="@+id/fragmentOne"
         android:name="com.android.navigation_sample.FragmentOne"
         android:label="fragment_one"
-        tools:layout="@layout/fragment_one" >
+        tools:layout="@layout/fragment_one">
         <action
             android:id="@+id/action_fragmentOne_to_fragmentTwo"
             app:destination="@id/fragmentTwo" />
@@ -18,9 +18,19 @@
         android:id="@+id/fragmentTwo"
         android:name="com.android.navigation_sample.FragmentTwo"
         android:label="fragment_two"
-        tools:layout="@layout/fragment_two" >
+        tools:layout="@layout/fragment_two">
         <action
             android:id="@+id/action_fragmentTwo_to_fragmentOne"
             app:destination="@id/fragmentOne" />
     </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.android.navigation_sample.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.android.navigation_sample.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
 </navigation>
