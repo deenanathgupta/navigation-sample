@@ -11,12 +11,12 @@
         android:label="FragmentOne" />
     <fragment
         android:id="@+id/profileFragment2"
-        android:name="com.android.navigation_sample.ProfileFragment"
+        android:name="com.android.navigation_sample.FragmentThree"
         android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_three" />
     <fragment
         android:id="@+id/settingFragment2"
-        android:name="com.android.navigation_sample.SettingFragment"
+        android:name="com.android.navigation_sample.ViewPagerFragment"
         android:label="fragment_setting"
-        tools:layout="@layout/fragment_setting" />
+        tools:layout="@layout/fragment_view_pager" />
 </navigation>

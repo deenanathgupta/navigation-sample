@@ -27,10 +27,7 @@ class FragmentTwo : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.txtTwo.setOnClickListener {
-            val action = FragmentTwoDirections.actionFragmentTwoToFragmentOne()
-            Navigation.findNavController(view).navigate(action)
-        }
+
     }
 
     companion object {

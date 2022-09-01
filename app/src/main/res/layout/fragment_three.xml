@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".ProfileFragment">
+    tools:context=".FragmentThree">
 
 
     <TextView
@@ -13,6 +13,6 @@
         android:layout_gravity="center"
         android:textColor="@color/white"
         android:textSize="@dimen/textSize60"
-        android:text="@string/profile" />
+        android:text="@string/Screen3" />
 
 </FrameLayout>

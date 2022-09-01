@@ -8,17 +8,17 @@ import android.view.ViewGroup
 
 /**
  * A simple [Fragment] subclass.
- * Use the [SettingFragment.newInstance] factory method to
+ * Use the [FragmentThree.newInstance] factory method to
  * create an instance of this fragment.
  */
-class SettingFragment : Fragment() {
+class FragmentThree : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_setting, container, false)
+        return inflater.inflate(R.layout.fragment_three, container, false)
     }
 
     companion object {
@@ -26,10 +26,10 @@ class SettingFragment : Fragment() {
          * Use this factory method to create a new instance of
          * this fragment using the provided parameters.
          *
-         * @return A new instance of fragment SettingFragment.
+         * @return A new instance of fragment ProfileFragment.
          */
         @JvmStatic
         fun newInstance() =
-            SettingFragment()
+            FragmentThree()
     }
 }

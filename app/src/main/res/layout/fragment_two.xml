@@ -14,7 +14,7 @@
             android:id="@+id/txtTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/two"
+            android:text="@string/screen2"
             android:textColor="@color/white"
             android:textSize="@dimen/textSize60"
             app:layout_constraintBottom_toBottomOf="parent"
